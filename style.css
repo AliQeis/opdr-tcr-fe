@@ -1,0 +1,118 @@
+*{
+   margin: 0;
+   padding: 3; 
+   box-sizing: border-box;
+}
+ul{
+ list-style-type: none;
+   background-color: rgb(26, 90, 0);
+   overflow: hidden;
+   list-style: none;
+   text-decoration: none;
+
+}
+.navbar ul{
+   justify-content: space-around;
+   display: flex;
+   width: 75vw;   
+   list-style-type: none;
+   text-decoration: none;
+
+}
+body{
+   background-color: rgb(4, 34, 4);
+   color: white;
+   font-weight: bolder ;
+}
+li{
+   float: right;
+   list-style-type: none;
+   justify-content: space-around;
+}
+.abc{
+   width: 15vw;
+   height: 7vw;
+   float:left ;
+}
+
+li a{
+   justify-content: space-around;
+   text-decoration: none;
+   color: white;
+
+}
+.first-nav{
+   display: flex;
+   justify-content: space-around;
+   overflow: hidden;
+   width: 60%;
+   height: 7vw;
+
+   
+}
+.sec-nav{
+   float: right;
+   width: fit-content;
+   display: flex;
+   border: 1px solid #005c40;
+   padding: 3.1rem 0.9rem 0.4rem 0.9rem;
+   margin-top: 0rem;   
+   position: absolute;
+   gap: 5rem;
+   top: 0%;
+   right:7rem ;
+   background-color: #005c40;
+   
+
+}
+.sec-nav li{
+   font-weight: bolder;
+   font-size: 1.25rem;
+   color: white;
+
+ 
+}
+
+
+.first-nav li{
+   margin-top: 3.5rem;
+   font-weight: bolder;
+   font-size: 1.25rem;
+   color: white;
+}
+.button{
+   background-color: rgb(170, 255, 0);
+   padding: 0rem 2rem;
+   height: 3rem;
+   margin-bottom: 0rem;
+
+}
+.pic1{
+   width: 25vw;
+   height: 30vw;
+float: right;
+}
+.pic2{
+   width: 25vw;
+   height: 30vw;
+   margin: 0rem 0rem 0rem 0rem;
+   margin-left: 40rem; 
+}
+.pics{
+   display:  inline-block;
+}
+div .pics{
+   display: inline-block;
+}
+.tekst{
+   /* text-align: center; */
+   margin: 1rem 5rem 0rem 10%;
+}
+.button1{
+   background-color: rgb(170, 255, 0);
+   padding: 0rem 2rem;
+   height: 3rem;
+   margin: 0rem 5rem 1rem 15rem;
+   
+  
+}
